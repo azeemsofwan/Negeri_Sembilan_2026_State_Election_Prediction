@@ -1,18 +1,20 @@
-# --- Python ---
+# --- Python & Environment ---
 __pycache__/
 *.py[cod]
+*$py.class
+venv/
+env/
+.env
 
-# --- Data ---
-# Ignores your dataset files and the data directory
-data/
-*.xlsx
-*.csv
-*.xls
-
-# --- Notebooks & System ---
+# --- Jupyter Notebooks ---
 .ipynb_checkpoints/
+
+# --- System Files ---
 .DS_Store
 .vscode/
 .idea/
-venv/
-env/
+
+# --- Optional: If you decide to stop tracking data later ---
+# Uncomment these lines if you ever want to keep your data local only
+# data/*.xlsx
+# data/*.csv
